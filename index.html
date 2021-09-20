@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/magnitpopup.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link rel="stylesheet" href="style/style.css" />
+    <title>KETT_LP</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header__wrap wrap">
+            <div class="header__logo-wrap">
+                <picture class="header-img">
+                    <source media="(min-width: 768px)" srcset="img/logo-desctop.svg">
+                    <img class="header__logo" src="img/logo-mobile.svg" width="50" height="50" alt="Логотип «KETT»">
+                </picture>    
+                <p class="header__logo-text">
+                    МЕБЕЛЬ «KETT» 
+                </p>            
+            </div>
+            <div class="header__wrap-navigation">
+                <ul class="header__list">
+                    <li class="header__item">
+                        <a class="header__link" href="#catalog">Каталог</a>
+                    </li>
+                    <li class="header__item">
+                        <a class="header__link" href="#texno">Характеристики</a>
+                    </li>
+                    <li class="header__item">
+                        <a class="header__link" href="#form">Заказ</a>
+                    </li>
+                    <li class="header__item">
+                        <a class="header__link" href="#footer">Контакты</a>
+                    </li>
+                </ul>  
+                <button class="header__navigation-close" type="button"></button>              
+            </div>
+            <button class="header__toggle" type="button"></button>     
+        </div>
+
+    </header>
+    <main>
+        <section class="introduction">
+            <div class="introduction__wrap wrap">
+                <div class="introduction__box">
+                    <h1 class="introduction__title wow fadeInLeft">КЕТТ</h1>
+                    <p class="introduction__subtitle wow fadeInLeft" data-wow-delay="0.2s">Офисная мебель</p>  
+                    <p class="introduction__discription wow fadeInLeft" data-wow-delay="0.4s">Производство  и поставка офисной мебели </p>
+                    <p class="introduction__adress wow fadeInLeft" data-wow-delay="0.6s">г. Киров , Профсоюзная 1-502</p>
+                    <a class="introduction__tel wow fadeInLeft" data-wow-delay="0.8s"  href="tel:+7 (8332) 499-222">+7 (8332) 499-222 </a>                  
+                </div>
+                <a class="introduction__down" href="#subtitle"></a>  
+            </div>
+        </section>
+        <section class="subtitle" id="subtitle"> 
+            <div class="subtitle__wrap wrap">
+                <div class="subtitle__box">
+                    <p class="subtitle__text subtitle__text-1 wow fadeInLeft" >Мебель для офиса серии «КЕТТ» - модульная, позволяет обустроить рабочие места любой сложности и конфигурации. Максимальная эргономика столов делает работу за ними приятной и эффективной.</p>
+                    <p class="subtitle__text subtitle__text-2 wow fadeInLeft" data-wow-delay="0.2s" >Современные, высококачественные материалы и безупречный дизайн серии «КЕТТ» будут вызывать только позитивные эмоции, что сделает рабочий процесс удобным как никогда.</p>
+                </div>
+                <div class="subtitle__button-box">
+                    <button class="subtitle__button wow fadeInRight" data-wow-delay="0.4s" type="button">Заказать звонок</button>
+                </div>
+            </div>
+        </section>
+        <section class="catalog" id="catalog">
+            <div class="catalog__wrap wrap">
+                <h2 class="catalog__header wow fadeInLeft">Каталог мебели</h2>
+                <ul class="catalog__list">
+                    <li class="catalog__item wow fadeInUp" >
+                        <a href="#text-popup1" class="catalog__link">
+                            <img class="catalog__image" src="img/catalog/image-1.png" alt="Картинка товара" width="116" height="119">
+                            <div class="catalog__box">
+                                <span class="catalog__cod">код: 201.02</span>
+                                <p class="catalog__price">5140 ₽</p>
+                            </div>
+                            <h2 class="catalog__title">Офисный шкаф  закрытый с полками.</h2>
+                            <p class="catalog__size">(1200x600 H740)</p>
+                        </a>
+                    </li>
+                    <li class="catalog__item wow fadeInUp">
+                        <a href="#text-popup2" class="catalog__link">
+                            <img class="catalog__image" src="img/catalog/image-2.png" alt="Картинка товара" width="116" height="119">
+                            <div class="catalog__box">
+                                <span class="catalog__cod">код: 201.02</span>
+                                <p class="catalog__price">5140 ₽</p>
+                            </div>
+                            <h2 class="catalog__title">Офисный шкаф  закрытый с полками.</h2>
+                            <p class="catalog__size">(1200x600 H740)</p>
+                        </a>
+                    </li>
+                    <li class="catalog__item wow fadeInUp">
+                        <a href="#" class="catalog__link">
+                            <img class="catalog__image" src="img/catalog/image-3.png" alt="Картинка товара" width="116" height="119">
+                            <div class="catalog__box">
+                                <span class="catalog__cod">код: 201.02</span>
+                                <p class="catalog__price">5140 ₽</p>
+                            </div>
+                            <h2 class="catalog__title">Офисный шкаф  закрытый с полками.</h2>
+                            <p class="catalog__size">(1200x600 H740)</p>
+                        </a>
+                    </li>
+                    <li class="catalog__item wow fadeInUp">
+                        <a href="#" class="catalog__link">
+                            <img class="catalog__image" src="img/catalog/image-4.png" alt="Картинка товара" width="116" height="119">
+                            <div class="catalog__box">
+                                <span class="catalog__cod">код: 201.02</span>
+                                <p class="catalog__price">5140 ₽</p>
+                            </div>
+                            <h2 class="catalog__title">Офисный шкаф  закрытый с полками.</h2>
+                            <p class="catalog__size">(1200x600 H740)</p>
+                        </a>
+                    </li>
+                    <li class="catalog__item wow fadeInUp">
+                        <a href="#" class="catalog__link">
+                            <img class="catalog__image" src="img/catalog/image-5.png" alt="Картинка товара" width="116" height="119">
+                            <div class="catalog__box">
+                                <span class="catalog__cod">код: 201.02</span>
+                                <p class="catalog__price">5140 ₽</p>
+                            </div>
+                            <h2 class="catalog__title">Офисный шкаф  закрытый с полками.</h2>
+                            <p class="catalog__size">(1200x600 H740)</p>
+                        </a>
+                    </li>
+                    <li class="catalog__item wow fadeInUp">
+                        <a href="#" class="catalog__link">
+                            <img class="catalog__image" src="img/catalog/image-6.png" alt="Картинка товара" width="116" height="119">
+                            <div class="catalog__box">
+                                <span class="catalog__cod">код: 201.02</span>
+                                <p class="catalog__price">5140 ₽</p>
+                            </div>
+                            <h2 class="catalog__title">Офисный шкаф  закрытый с полками.</h2>
+                            <p class="catalog__size">(1200x600 H740)</p>
+                        </a>
+                    </li>
+                    <li class="catalog__item wow fadeInUp">
+                        <a href="#" class="catalog__link">
+                            <img class="catalog__image" src="img/catalog/image-8.png" alt="Картинка товара" width="116" height="119">
+                            <div class="catalog__box">
+                                <span class="catalog__cod">код: 201.02</span>
+                                <p class="catalog__price">5140 ₽</p>
+                            </div>
+                            <h2 class="catalog__title">Офисный шкаф  закрытый с полками.</h2>
+                            <p class="catalog__size">(1200x600 H740)</p>
+                        </a>
+                    </li>
+                    <li class="catalog__item wow fadeInUp">
+                        <a href="#" class="catalog__link">
+                            <img class="catalog__image" src="img/catalog/image-9.png" alt="Картинка товара" width="116" height="119">
+                            <div class="catalog__box">
+                                <span class="catalog__cod">код: 201.02</span>
+                                <p class="catalog__price">5140 ₽</p>
+                            </div>
+                            <h2 class="catalog__title">Офисный шкаф  закрытый с полками.</h2>
+                            <p class="catalog__size">(1200x600 H740)</p>
+                        </a>
+                    </li>
+                    <li class="catalog__item wow fadeInUp">
+                        <a href="#" class="catalog__link">
+                            <img class="catalog__image" src="img/catalog/image-10.png" alt="Картинка товара" width="116" height="119">
+                            <div class="catalog__box">
+                                <span class="catalog__cod">код: 201.02</span>
+                                <p class="catalog__price">5140 ₽</p>
+                            </div>
+                            <h2 class="catalog__title">Офисный шкаф  закрытый с полками.</h2>
+                            <p class="catalog__size">(1200x600 H740)</p>
+                        </a>
+                    </li>
+                    <li class="catalog__item wow fadeInUp">
+                        <a href="#" class="catalog__link">
+                            <img class="catalog__image" src="img/catalog/image-11.png" alt="Картинка товара" width="116" height="119">
+                            <div class="catalog__box">
+                                <span class="catalog__cod">код: 201.02</span>
+                                <p class="catalog__price">5140 ₽</p>
+                            </div>
+                            <h2 class="catalog__title">Офисный шкаф  закрытый с полками.</h2>
+                            <p class="catalog__size">(1200x600 H740)</p>
+                        </a>
+                    </li>
+                    <li class="catalog__item wow fadeInUp">
+                        <a href="#" class="catalog__link">
+                            <img class="catalog__image" src="img/catalog/image-12.png" alt="Картинка товара" width="116" height="119">
+                            <div class="catalog__box">
+                                <span class="catalog__cod">код: 201.02</span>
+                                <p class="catalog__price">5140 ₽</p>
+                            </div>
+                            <h2 class="catalog__title">Офисный шкаф  закрытый с полками.</h2>
+                            <p class="catalog__size">(1200x600 H740)</p>
+                        </a>
+                    </li>
+                    <li class="catalog__item wow fadeInUp">
+                        <a href="#" class="catalog__link">
+                            <img class="catalog__image" src="img/catalog/image-13.png" alt="Картинка товара" width="116" height="119">
+                            <div class="catalog__box">
+                                <span class="catalog__cod">код: 201.02</span>
+                                <p class="catalog__price">5140 ₽</p>
+                            </div>
+                            <h2 class="catalog__title">Офисный шкаф  закрытый с полками.</h2>
+                            <p class="catalog__size">(1200x600 H740)</p>
+                        </a>
+                    </li>
+                    <li class="catalog__item wow fadeInUp">
+                        <a href="#" class="catalog__link">
+                            <img class="catalog__image" src="img/catalog/image-14.png" alt="Картинка товара" width="116" height="119">
+                            <div class="catalog__box">
+                                <span class="catalog__cod">код: 201.02</span>
+                                <p class="catalog__price">5140 ₽</p>
+                            </div>
+                            <h2 class="catalog__title">Офисный шкаф  закрытый с полками.</h2>
+                            <p class="catalog__size">(1200x600 H740)</p>
+                        </a>
+                    </li>
+                    <li class="catalog__item wow fadeInUp">
+                        <a href="#" class="catalog__link">
+                            <img class="catalog__image" src="img/catalog/image-15.png" alt="Картинка товара" width="116" height="119">
+                            <div class="catalog__box">
+                                <span class="catalog__cod">код: 201.02</span>
+                                <p class="catalog__price">5140 ₽</p>
+                            </div>
+                            <h2 class="catalog__title">Офисный шкаф  закрытый с полками.</h2>
+                            <p class="catalog__size">(1200x600 H740)</p>
+                        </a>
+                    </li>
+                    <li class="catalog__item wow fadeInUp">
+                        <a href="#" class="catalog__link">
+                            <img class="catalog__image" src="img/catalog/image-16.png" alt="Картинка товара" width="116" height="119">
+                            <div class="catalog__box">
+                                <span class="catalog__cod">код: 201.02</span>
+                                <p class="catalog__price">5140 ₽</p>
+                            </div>
+                            <h2 class="catalog__title">Офисный шкаф  закрытый с полками.</h2>
+                            <p class="catalog__size">(1200x600 H740)</p>
+                        </a>
+                    </li>
+                    <li class="catalog__item wow fadeInUp">
+                        <a href="#" class="catalog__link">
+                            <img class="catalog__image" src="img/catalog/image-17.png" alt="Картинка товара" width="116" height="119">
+                            <div class="catalog__box">
+                                <span class="catalog__cod">код: 201.02</span>
+                                <p class="catalog__price">5140 ₽</p>
+                            </div>
+                            <h2 class="catalog__title">Офисный шкаф  закрытый с полками.</h2>
+                            <p class="catalog__size">(1200x600 H740)</p>
+                        </a>
+                    </li>
+                    <li class="catalog__item wow fadeInUp">
+                        <a href="#" class="catalog__link">
+                            <img class="catalog__image" src="img/catalog/image-18.png" alt="Картинка товара" width="116" height="119">
+                            <div class="catalog__box">
+                                <span class="catalog__cod">код: 201.02</span>
+                                <p class="catalog__price">5140 ₽</p>
+                            </div>
+                            <h2 class="catalog__title">Офисный шкаф  закрытый с полками.</h2>
+                            <p class="catalog__size">(1200x600 H740)</p>
+                        </a>
+                    </li>
+                    <li class="catalog__item wow fadeInUp">
+                        <a href="#" class="catalog__link">
+                            <img class="catalog__image" src="img/catalog/image-19.png" alt="Картинка товара" width="116" height="119">
+                            <div class="catalog__box">
+                                <span class="catalog__cod">код: 201.02</span>
+                                <p class="catalog__price">5140 ₽</p>
+                            </div>
+                            <h2 class="catalog__title">Офисный шкаф  закрытый с полками.</h2>
+                            <p class="catalog__size">(1200x600 H740)</p>
+                        </a>
+                    </li>
+                    <li class="catalog__item wow fadeInUp">
+                        <a href="#" class="catalog__link">
+                            <img class="catalog__image" src="img/catalog/image-20.png" alt="Картинка товара" width="116" height="119">
+                            <div class="catalog__box">
+                                <span class="catalog__cod">код: 201.02</span>
+                                <p class="catalog__price">5140 ₽</p>
+                            </div>
+                            <h2 class="catalog__title">Офисный шкаф  закрытый с полками.</h2>
+                            <p class="catalog__size">(1200x600 H740)</p>
+                        </a>
+                    </li>
+                </ul>
+                <div class="catalog__card mfp-hide" id="text-popup1">
+                    <div class="catalog__card__box-desctop">
+                        <img class="catalog__card__img-desctop" src="img/card.png" alt="">
+                    </div>
+                    <div class="catalog__card__container">
+                        <div class="catalog__card__content">
+                            <div class="catalog__card__box-mobile">
+                                <img class="catalog__card__img-mobile" src="img/card.png" alt="" width="136" height="178">
+                            </div>
+                            <div class="catalog__card__content-box">
+                                <h2 class="catalog__card__header">Офисный шкаф  закрытый с полками</h2>
+                                <span class="catalog__card__code">код: 201.02</span>
+                                <div class="catalog__card__wrap">
+                                    <p class="catalog__card__price">5140 ₽</p>
+                                    <div class="catalog__card__color">
+                                        <p>Белый шагрень</p>
+                                        <ul class="catalog__card__list-color">
+                                            <li class="catalog__card__item-color" data-color="img/paralax.jpg">красный</li>
+                                            <li class="catalog__card__item-color" data-color="img/card2121.png">красный</li>
+                                            <li class="catalog__card__item-color" data-color="img/car214d.png">красный</li>
+                                            <li class="catalog__card__item-color" data-color="img/car21d.png">красный</li>
+                                        </ul>
+                                    </div>                                    
+                                </div>
+                                <span class="catalog__card__subtitle">*Цвет на экране монитора может не соответсвовать цвету изделия</span>
+                            </div>
+                        </div>
+                        <a class="catalog__card__link" href="#">Скачать бланк заказа</a>
+                        <table class="catalog__card__table">
+                            <tr class="catalog__card__colum">
+                              <th>Размеры</th>
+                               <th>Длина</th>
+                               <th>Ширина</th>
+                               <th>Высота</th>
+                               <th>Вес</th>
+                            </tr>
+                            <tr class="catalog__card__colum">
+                              <td>(мм)</td><td>1200</td><td>1200</td><td>1200</td><td>1200</td>
+                            </tr>
+                          </table>                        
+                    </div>
+                </div>
+                <div class="catalog__card mfp-hide" id="text-popup2">
+                    <div class="catalog__card__box-desctop">
+                        <img class="catalog__card__img-desctop" src="img/card.png" alt="">
+                    </div>
+                    <div class="catalog__card__container">
+                        <div class="catalog__card__content">
+                            <div class="catalog__card__box-mobile">
+                                <img class="catalog__card__img-mobile" src="img/card.png" alt="" width="136" height="178">
+                            </div>
+                            <div class="catalog__card__content-box">
+                                <h2 class="catalog__card__header">Офисный шкаф  закрытый с полками</h2>
+                                <span class="catalog__card__code">код: 201.02</span>
+                                <div class="catalog__card__wrap">
+                                    <p class="catalog__card__price">5140 ₽</p>
+                                    <div class="catalog__card__color">
+                                        <p>Белый шагрень</p>
+                                        <ul class="catalog__card__list-color">
+                                            <li class="catalog__card__item-color" data-color="img/paralax.jpg">красный</li>
+                                            <li class="catalog__card__item-color" data-color="img/card.png">красный</li>
+                                            <li class="catalog__card__item-color" data-color="img/card.png">красный</li>
+                                            <li class="catalog__card__item-color" data-color="img/card.png">красный</li>
+                                        </ul>
+                                    </div>                                    
+                                </div>
+                                <span class="catalog__card__subtitle">*Цвет на экране монитора может не соответсвовать цвету изделия</span>
+                            </div>
+                        </div>
+                        <a class="catalog__card__link" href="#">Скачать бланк заказа</a>
+                        <table class="catalog__card__table">
+                            <tr class="catalog__card__colum">
+                              <th>Размеры</th>
+                               <th>Длина</th>
+                               <th>Ширина</th>
+                               <th>Высота</th>
+                               <th>Вес</th>
+                            </tr>
+                            <tr class="catalog__card__colum">
+                              <td>(мм)</td><td>1200</td><td>1200</td><td>1200</td><td>1200</td>
+                            </tr>
+                          </table>                        
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="specifications" id="texno">
+            <div class="technical__wrap">
+                <div class="specifications__color">
+                    <div class="specifications__color-wrap">
+                        <h2 class="specifications__color__heade wow fadeInLeft">Цветовые решения</h2>
+                        <ul class="specifications__color__list">
+                            <li class="specifications__color__item wow bounceIn">
+                                <h2 class="specifications__color__title">Белый шагрень</h2>
+                                <img class="specifications__color__image" src="img/specifications/white.jpg" alt="" width="90" height="90">
+                            </li>
+                            <li class="specifications__color__item wow bounceIn" data-wow-delay="0.3s">
+                                <h2 class="specifications__color__title">Черный шагрень</h2>
+                                <img class="specifications__color__image" src="img/specifications/black.jpg" alt="" width="90" height="90">
+                            </li>
+                            <li class="specifications__color__item wow bounceIn" data-wow-delay="0.5s">
+                                <h2 class="specifications__color__title">Серый стальной</h2>
+                                <img class="specifications__color__image" src="img/specifications/silver.jpg" alt="" width="90" height="90">
+                            </li>
+                            <li class="specifications__color__item wow bounceIn" data-wow-delay="0.7s">
+                                <h2 class="specifications__color__title">Ясень светлый</h2>
+                                <img class="specifications__color__image" src="img/specifications/light.jpg" alt="" width="90" height="90">
+                            </li>
+                            <li class="specifications__color__item wow bounceIn" data-wow-delay="0.9s">
+                                <h2 class="specifications__color__title">Ясень темный</h2>
+                                <img class="specifications__color__image" src="img/specifications/dark.jpg" alt="" width="90" height="90">
+                            </li>
+                        </ul>
+                        <span class="specifications__color__subtitile">*Цвет на экране монитора может не соответсвовать цвету изделия</span>
+                    </div>
+                </div>
+                <div class="specifications__technical" >
+                    <div class="specifications__technical-wrap">
+                        <h2 class="specifications__technical__header wow fadeInLeft">Технические характеристики</h2>
+                        <ul class="specifications__technical__list">
+                            <li class="specifications__technical__item wow fadeIn" >
+                                <h2 class="specifications__technical__title">Столы</h2>
+                                <div class="specifications__technical__box">
+                                    <p class="specifications__technical__text">Столешница – ЛДСП 16 мм, кромка ПВХ 1 мм.</p>
+                                    <p class="specifications__technical__text">Каркас стола – ЛДСП 16 мм, кромка – ПВХ 0,45 мм.</p>
+                                </div>
+                            </li>
+                            <li class="specifications__technical__item wow fadeIn" data-wow-delay="0.2s">
+                                <h2 class="specifications__technical__title">Экраны</h2>
+                                <div class="specifications__technical__box">
+                                    <p class="specifications__technical__text">ЛДСП 16 мм, кромка ПВХ 0,45 мм.</p>
+                                    <p class="specifications__technical__text">Экран устанавливается к торцу столешницы с помощью струбцины.</p>
+                                </div>
+                            </li>
+                            <li class="specifications__technical__item wow fadeIn" data-wow-delay="0.4s">
+                                <h2 class="specifications__technical__title">Тумбы</h2>
+                                <div class="specifications__technical__box">
+                                    <p class="specifications__technical__text">Топ – ЛДСП 16 мм, кромка – ПВХ 1 мм и 0,45 мм.</p>
+                                    <p class="specifications__technical__text">Корпус – ЛДСП 16 мм, кромка – ПВХ 0,45 мм.</p>
+                                    <p class="specifications__technical__text">Задняя стенка – ЛДСП 16 мм.</p>
+                                </div>
+                            </li>
+                            <li class="specifications__technical__item wow fadeIn" data-wow-delay="0.6s">
+                                <h2 class="specifications__technical__title">Шкафы</h2>
+                                <div class="specifications__technical__box">
+                                    <p class="specifications__technical__text">Корпус – ЛДСП 16 мм, цвет серый, </p>
+                                    <p class="specifications__technical__text">кромка – ПВХ 0,45 мм.</p>
+                                    <p class="specifications__technical__text">Полки – ЛДСП 16 мм, цвет серый, </p>
+                                    <p class="specifications__technical__text">кромка – ПВХ 0,45 мм.</p>
+                                    <p class="specifications__technical__text">Топ – ЛДСП 16 мм, цвет серый, </p>
+                                    <p class="specifications__technical__text">кромка – ПВХ 0,45 мм.</p>
+                                    <p class="specifications__technical__text">Задние стенки – ХДФ 3 мм, накладная.</p>
+                                    <p class="specifications__technical__text">Двери – ЛДСП 16 мм, кромка – ПВХ 0,45 мм.</p>
+                                    <p class="specifications__technical__text">Двери стеклянные – прозрачные, толщина – 4 мм</p>
+                                </div>
+                            </li>
+                            <li class="specifications__technical__item wow fadeIn" data-wow-delay="0.8s">
+                                <h2 class="specifications__technical__title">Фурнитура</h2>
+                                <div class="specifications__technical__box">
+                                    <p class="specifications__technical__text">Производитель – Италия.</p>
+                                    <p class="specifications__technical__text">Ручки – металлические, серебристые.</p>
+                                    <p class="specifications__technical__text">Направляющие в тумбах – роликовые (металлические).</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>                
+            </div>
+        </section>
+        <section class="paralax"> 
+
+        </section>
+        <section class="features"> 
+            <div class="features__wrap">
+                <ul class="features__list">
+                    <li class="features__item wow fadeInLeft" >
+                        <h2 class="features__header">Особенные условия для оптовиков</h2>
+                        <p class="features__text">Число наших оптовых покупателей неуклонно возрастает и всё потому, что мы сумели предложить владельцам мебельных магазинов наиболее выгодные условия.</p>
+                    </li>
+                    <li class="features__item wow fadeInRight">
+                        <h2 class="features__header">Оперативная доставка</h2>
+                        <p class="features__text">Собственная курьерская служба   быстро привезет купленную мебель по указанному адресу. В российские регионы   доставка осуществляется силами транспортных компаний.</p>
+                    </li>
+                    <li class="features__item wow fadeInLeft">
+                        <h2 class="features__header">Внимательный сервис</h2>
+                        <p class="features__text">Квалифицированные менеджеры ответят на все вопросы по ассортименту и услугам, а также помогут оформить заказ и проконтролируют его реализацию.</p>
+                    </li>
+                    <li class="features__item wow fadeInRight">
+                        <h2 class="features__header">Ценим каждого покупателя</h2>
+                        <p class="features__text">И мы благодарим всех, кто воспользовался нашим уникальным предложением, заказал мебель быстро и недорого и порекомендовал    друзьям и  знакомым.</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="application" id="form">
+            <div class="application__wrap wrap wow fadeInLeft">
+                <div class="application__container">
+                    <div class="application__content">
+                        <h2 class="application__header">Оформление заказа</h2>
+                        <p class="application__text">Чтобы оформить заказ, скачайте бланк заказа  
+                            Проставьте количество и выбранный цвет  </p>
+                        <a href="#" class="application__link">Скачать бланк заказа</a>
+                    </div>
+                    <form class="application__form" method="POST">
+                        <input class="application__form__input application__form__input-name" type="text" name="name" placeholder="ФИО">
+                        <input class="application__form__input application__form__input-inn" type="text" name="inn" placeholder="ИНН организации">
+                        <div class="application__input-wrap">
+                            <input class="application__form__input application__form__input-email" type="email" name="email" placeholder="E-mail">
+                            <input class="application__form__input application__form__input-tel" type="number" name="tel" placeholder="+7(___)___-__-__">
+                        </div>
+                        <div class="application__form__file-box">
+                            <input hidden class="application__form__file" type="file" name="file" id="file">
+                            <label for="file">
+                                <div class="application__form__file-text">Выбрать файл</div>
+                            </label>
+                        </div>
+                        <button class="application__form__submit" type="submit">Отправить</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer" id="footer">
+        <div class="footer__wrap wrap">
+            <div class="footer__box">
+                <div class="footer__logo">
+                    <img class="footer__img" src="img/footer/logo-footer.svg" alt="Логотип «KETT»" width="50" height="50">
+                    <p class="footer__logo-text">МЕБЕЛЬ «KETT» </p>   
+                </div> 
+                <p class="footer__copyright">Все права защищены. © 2018</p>                
+            </div>
+            <ul class="footer__list">
+                <li class="footer__item"><a class="footer__link footer__link-skype" href="skype:"></a></li> 
+                <li class="footer__item"><a class="footer__link footer__link-facebook" href="#"></a></li> 
+                <li class="footer__item"><a class="footer__link footer__link-vk" href="#"></a></li> 
+                <li class="footer__item"><a class="footer__link footer__link-telegram" href="https://t.me/"></a></li> 
+            </ul>
+            <div class="footer__content">
+                <div class="footer__info">
+                    <p>ООО “Лига Качества”</p>
+                    <p>ИНН: 4345376178 КПП: 434501001</p>
+                    <p>ОГРН: 1144345000579</p>
+                    <p>г. Киров, Профсоюзная 1-502</p>
+                </div>
+                <div class="footer__contact">
+                    <a class="footer__contact__tel" href="tel:+7 (8332) 499-222">+7 (8332) 499-222</a>
+                    <a class="footer__contact__mail" href="mailto:mebel@kett.ru">mebel@kett.ru</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="shadov__navigation">
+
+    </div>
+     
+    <div class="popup-wrap">
+        <div class="call-popup">
+            <h2 class="call-popup__header">Заказать звонок</h2>
+            <p class="call-popup__subtitle">Оставьте свои контакты и мы перезвоним Вам в ближайшее время</p>
+            <form class="call-popup__form" action="" method="POST">
+                <input class="call-popup__input" type="text" name="name" placeholder="ФИО">
+                <input class="call-popup__input" type="tel" name="tel" placeholder="+7 (___) ___-__-__">
+                <input class="call-popup__input" type="email" name="email" placeholder="E-mail">
+                <button class="call-popup__submit" type="submit">Заказать звонок</button>
+            </form>
+            <button class="clsoe-popup" type="button"></button>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script/magnitPopop.js"></script>
+    <script src="script/mask.js"></script>
+    <script>
+         $('[type=tel]').mask('+7 (999) 999-99-99');
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script>
+    new WOW().init();
+    </script>
+    <script src="script/script.js"></script>
+</body>
+</html>
