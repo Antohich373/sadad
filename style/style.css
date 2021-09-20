@@ -1438,7 +1438,6 @@ button {
 .paralax {
     height: 134px;
     background-image: url('../img/paralax.jpg');
-    background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -1447,6 +1446,11 @@ button {
 @media(min-width: 768px) {
     .paralax {
         height: 416px;
+        background-image: url('../img/paralax.jpg');
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
     }  
 }
 
@@ -1929,4 +1933,8 @@ section {
         top: 30px;
         right: 30px;
     }
+}
+
+.catalog__card__box-desctop {
+    max-width: 50%;
 }

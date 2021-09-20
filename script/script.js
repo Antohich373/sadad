@@ -50,9 +50,11 @@ for(let j = 0; j < item.length; j++) {
     item[j].addEventListener('click', function() {
        let wraper = this.closest('.catalog__card')
        let dataImage = this.dataset.color
+       let dataName = this.dataset.name
         let images = wraper.querySelectorAll('[class*="catalog__card__img"]')
         for(let i = 0; i < images.length; i++) {
             images[i].src = dataImage
+            document.querySelector('.catalog__card__color-text').innerHTML = dataName
         }
     })
 }
@@ -67,11 +69,11 @@ for(let i = 0; i < openColor.length; i++) {
 
 /*ОТКРЫТЬ ЗАКАЗАТЬ ЗВОНОК*/
 
-let openCall = document.querySelector('.subtitle__button')
+// let openCall = document.querySelector('.subtitle__button')
 
-openCall.addEventListener('click', function() {
-    document.querySelector('.popup-wrap').classList.add('popup-wrap-active')
-})
+// openCall.addEventListener('click', function() {
+//     document.querySelector('.popup-wrap').classList.add('popup-wrap-active')
+// })
 
 /*ЗАКРЫТЬ ЗАКАЗАТЬ ЗВОНОК*/
 
@@ -80,3 +82,4 @@ let closeCall = document.querySelector('.clsoe-popup')
 closeCall.addEventListener('click', function() {
     document.querySelector('.popup-wrap').classList.remove('popup-wrap-active')
 })
+
