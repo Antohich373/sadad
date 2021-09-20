@@ -1938,3 +1938,16 @@ section {
 .catalog__card__box-desctop {
     max-width: 50%;
 }
+
+.subtitle__button:hover {
+    opacity: 0.8;
+}
+
+.b24-form-btn:hover {
+    opacity: 0.8;
+}
+
+.application__link:hover {
+    background-color: #5292F2;
+    color: #fff;
+}
